@@ -1,0 +1,120 @@
+#NavBar{
+position:fixed;
+padding-top:10px !important;
+padding-bottom:15px;
+
+width: 100%;
+top: 0;
+background-color:#dfffb5;
+}
+#NavBar a{
+   text-decoration: none;
+    color: black;
+    font-family:Zen+Kurenaido;
+    margin-left: 15px;
+    font-size:18px;
+    border-right: 2px solid black;
+    padding-right: 12px;
+
+}
+#NavBar a:hover{
+    color:#2875a6;
+}
+
+img {
+width: 100%;
+height: 620px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+     background-color:#f0ffdb;
+
+}
+.startContainer{
+   margin-left:auto;
+   margin-right:auto;
+    width:80px;
+    text-align:center;
+}
+.Icontainer {
+    margin-left:auto;
+    margin-right:auto;
+    width:180px;
+    text-align:center;
+    bottom: 0;
+}
+
+
+.startLink{
+    display: inline;
+}
+
+.startBtn{
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    padding:10px;
+    border-radius: 10px;
+    color:black;
+
+
+}
+.startBtn:hover {
+    background-color:#2875a6;
+    color: white;
+}
+.aboutTitle{
+    color: #2875a6;
+    font-family:serif;
+    position:'absolute';
+    margin:auto;
+
+    }
+.aboutList{
+    font-family: 'Anek Odia', sans-serif;
+    font-size: 20px;
+    paddingTop:600px;
+    display:none;
+}
+
+
+
+.imageContainer{
+    background-image:url("https://pic2.zhimg.com/80/v2-5cf9be06aa5c3117c62f79a1b3bbb395_720w.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    text-align:center;
+}
+
+.imageParagraph{
+    color:#2875a6;
+   position:absolute;
+   padding-left:670px;
+   padding-top: 20px;
+   font-size: 150px;
+   letter-spacing:10px;
+font-family: 'Square Peg', cursive;
+
+}
+#digital{
+    color:#C2EAFB;
+   position:absolute;
+   padding-left:600px;
+   padding-top: 240px;
+    font-size:60px;
+   letter-spacing:10px;
+font-family: 'Square Peg', cursive;
+
+}
+#ai {
+    color:#C2EAFB;
+   position:absolute;
+   padding-left:600px;
+   padding-top: 320px;
+    font-size:60px;
+   letter-spacing:10px;
+   font-family: 'Square Peg', cursive;
+}

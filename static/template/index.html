@@ -1,0 +1,99 @@
+<html>
+<head>
+    <title>Media Pipe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/css/style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="NavBar">
+    <a href="/">Home</a>
+    <a href="/searchPage">Search</a>
+    <a href="/Allpictures">Pictures</a>
+    <a href="/aboutus">About Us</a>
+    <a href="/charity">Charity</a>
+</div>
+<div id="homeContainer">
+    <p>
+    <h1 align="center">Media Pipe</h1></p>
+    <div class="container">
+
+        <div class="column">
+            <img id=image width="400" height="500" style="object-fit: contain;">
+            <div class="row">
+                <div class="p-4">
+                    <button id="previous" onclick="getpreviousImage()" style="display: none;">previous</button>
+                </div>
+                <div class="py-4 p1-100">
+                    <button class="btn btn-primary btn-xl" onclick="getNextImage()" id="next" onclick="getNextImage()">
+                        next
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="column" id="jointImg">
+
+            <canvas id="canvas" class="canvas"></canvas>
+            <joint id="right_shoulder">RShoulder</joint>
+            <joint id="left_shoulder">LShoulder</joint>
+            <joint id="right_waist">RWaist</joint>
+            <joint id="left_waist">LWaist</joint>
+            <joint id="right_elbow">RElbow</joint>
+            <joint id="left_elbow">LElbow</joint>
+            <joint id="right_wrist">RWrist</joint>
+            <joint id="left_wrist">LWrist</joint>
+            <joint id="right_knee">RKnee</joint>
+            <joint id="left_knee">LKnee</joint>
+            <joint id="right_ankle">RAnkle</joint>
+            <joint id="left_ankle">LAnkle</joint>
+        </div>
+
+        <div class="row justify-content-evenly">
+            <div class="col-sm">
+                <div class="form-group">
+                    <button id="searchButton" onclick='search()' class="btn btn-primary btn-xl">Search</button>
+                </div>
+            </div>
+
+            <div class="col-sm">
+
+                <label>Choose a picture:</label>
+                <select name="pictureFilename" id="selectedPicture" onchange="setImage();">
+
+                </select>
+
+            </div>
+            <!--        <div class="col-sm">-->
+            <!--            <div class="form-group">-->
+            <!--                    <button onclick='search' class="btn btn-primary btn-xl">MediaPipe</button>-->
+            <!--                </div>-->
+            <!--        </div>-->
+
+
+        </div>
+    </div>
+
+
+</div>
+</div>
+<script type="text/javascript" src="static/js/app.js"></script>
+</body>
+</html>
+
+
+

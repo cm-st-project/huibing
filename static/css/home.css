@@ -1,0 +1,110 @@
+h1{
+    color: pink;
+    vertical-align:bottom;
+}
+#NavBar{
+position:fixed;
+padding-top:10px !important;
+padding-bottom:15px;
+width: 100%;
+top: 0;
+background-color:#dfffb5;
+}
+
+#NavBar a:hover{
+    color:#2875a6;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family:Zen+Kurenaido;
+    margin-left: 15px;
+    font-size:18px;
+    border-right: 2px solid black;
+    padding-right: 12px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    background-color: #e4fcc5;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    height: 400 px;
+    background-color: #e3f6ff;
+
+}
+.column2{
+    flex:25%;
+    max-height:25%;
+    padding: 0 4px;
+.column2 img{
+  margin-top 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+}
+.column{
+    flex:25%;
+    max-width:25%;
+    padding: 0 4px;
+}
+.column img{
+    margin-top 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+joint
+{
+    position:absolute;
+    top: 0;
+    height:18px;
+    width: 18px;
+    background : #15a5ed;
+    line-hight:60px;
+    border-radius:50%;
+}
+
+.dov1{
+    background-image: url("pictures/qing.png");
+    bsckground-size: cover;
+    height:600px;
+
+
+}
+*{
+box-sizing: border-box;
+}
+
+.col{
+float: left;
+width: 33.33%;
+padding: 5px;
+}
+
+.row3::after{
+content: "";
+display: flex;
+clear: both;
+max-height: 25%;
+
+}
+dot{
+height:25 px;
+width: 25px;
+background-color:#aaa;
+border-radius: 50%;
+position: absolute;
+}
+
+#div1{
+background-image:url(../pictures/qing.png);
+background_size: cover;
+height:600px;
+}
+

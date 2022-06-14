@@ -1,0 +1,65 @@
+#homeContainer {
+ background-color: #feffe3;
+
+}
+#NavBar{
+position:fixed;
+padding-top:10px !important;
+padding-bottom:15px;
+width: 100%;
+top: 0;
+background-color:#dfffb5;
+}
+#NavBar a{
+   text-decoration: none;
+    color: black;
+    font-family:Zen+Kurenaido;
+    margin-left: 15px;
+    font-size:18px;
+    border-right: 2px solid black;
+    padding-right: 12px;
+}
+
+#NavBar a:hover{
+    color:#2875a6;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+.column2 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+
+}
+
+#searchButton{
+    position: absolute;
+    bottom:200px;
+    left:200px;
+}
+
+joint {
+    position: absolute;
+    top: 0;
+    height: 18px;
+    width: 18px;
+    background: #15a5ed;
+    line-height: 60px;
+    border-radius: 50%;
+}
+
+
+#jointImg {
+    background-color:#dffacf;
+}
+
+
+
+
+

@@ -1,0 +1,94 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color:#f0ffdb;
+}
+.aboutusContainer {
+    background-color:#f0ffdb;
+    padding-left: 50px;
+}
+.aboutTitle{
+    color: #519e88;
+    font-family:serif;
+}
+.aboutList{
+    font-family: 'Anek Odia', sans-serif;
+    font-size: 20px;
+}
+
+.aboutUsContent {
+    display:flex;
+    flex-direction: row;
+    padding-top:30px;
+}
+
+.containerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+.containerSection{
+    padding-top: 40px;
+}
+.containerBox{
+    position relative;
+    border:solid 2px white;
+    padding: 150px;
+    width: 400px;
+    margin:10px;
+    height:100px;
+    background-color: white;
+    color: black;
+
+}
+
+#box1 {
+ box-shadow: 25px -20px 0 5px #519e88;
+}
+
+#box2 {
+ box-shadow: 25px -20px 0 5px #a1f7bb;
+}
+#box3 {
+ box-shadow: 25px -20px 0 5px #acfcec;
+}
+
+h1{
+    color: #519e88;
+     font-family:serif;
+}
+.boxTitle {
+    bottom:160px;
+    right:130px;
+    position:relative;
+    color: #519e88;
+     font-family:serif;
+}
+p {
+    font-size: 20px;
+}
+
+.aboutUsP{
+    position relative;
+    border:solid 2px white;
+    padding: 150px;
+    width: 400px;
+    margin:10px;
+    height:100px;
+    width:1000px;
+    background-color: white;
+    color: black;
+
+}
+
+#aboutUsPara {
+
+   bottom:160px;
+    right:130px;
+    position:relative;
+    color: #519e88;
+     font-family:serif;
+}
+
