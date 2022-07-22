@@ -79,8 +79,6 @@ function onMouseMove(e) {
     d.style.top  = d.offsetTop  + e.clientY - the_last_mouse_position.y + "px";
     the_last_mouse_position.x = e.clientX;                                          // remember where the mouse is now
     the_last_mouse_position.y = e.clientY;
-
-    //Update code. I have a mistake in this part when I set the coordinates of the joint(eg, right_wrist, left_wrist, right_shoulder...)
     joints[the_moving_div].x = d.offsetLeft + e.clientX - the_last_mouse_position.x - WIDTH
     joints[the_moving_div].y = d.offsetTop + e.clientY - the_last_mouse_position.y - HEIGHT
     d = document.getElementById(the_moving_div);
